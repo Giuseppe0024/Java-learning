@@ -116,22 +116,5 @@ public class OperatorAndCasting {
         System.out.println("Our " + secondDinoWeight + "kg dinosaur needs " + secondPortionWeight + "kg daily," +
                 "so he needs " + secondPortionWeight + "kg per feeding.");
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     }
-
-
-
 }
