@@ -1,4 +1,4 @@
-package dinosaur.a_helloworld;
+package dinosaur.a_HelloWorld;
 
 public class HelloWorld {
     public static void main ( String[] args) {
