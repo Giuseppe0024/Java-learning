@@ -1,23 +1,33 @@
 package dinosaur.d_ConditionalStatements;
 
+// LO SCANNER SI RIFERISCE ALLA Java API java.util, una delle librerie fornite da Java
 import java.util.Scanner;
 
 public class ConditionalStatements {
     public static void main (String [] args ) {
-        Scanner tastiera  = new Scanner(System.in);
-        System.out.println("scrivi un numero ");
-        String name = tastiera.nextLine();
-        System.out.println ("il tuo numero è " + name);
+       Scanner visual = new Scanner(System.in);
+        System.out.println("enter a number from 1 to 10");
+        int number = visual.nextInt();
+        switch (number) {
+            case 1:
+            case 3:
+            case 5:
+            case 7:
+            case 9:
+                System.out.println(number + "is odd");
+                break;
 
+            case 2:
+            case 4:
+            case 6:
+            case 8:
+            case 10:
+                System.out.println( number + " is even");
+                break;
 
-        int[] numerini = new int[10];
-        numerini[0] = 1;
-        numerini[1] = 3+4;
-        numerini[2] = 2+3;
-
-
-
-
-
+            default:
+                System.out.println("your number is not valid");
+                break;
+        }
     }
 }
